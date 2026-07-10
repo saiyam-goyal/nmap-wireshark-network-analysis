@@ -1,0 +1,24 @@
+Phase 1 – Network Scanning using Nmap
+
+Objective:
+To perform a network scan on the target host using Nmap and identify open ports, services, and operating system information.
+
+Command Used:
+nmap -A scanme.nmap.org
+
+Results:
+- Target Host: scanme.nmap.org (45.33.32.156)
+- Host Status: Up
+- Open Ports Detected:
+  - 22/tcp (SSH)
+  - 80/tcp (HTTP)
+  - 9929/tcp (Nping Echo)
+  - 31337/tcp (tcpwrapped)
+- Filtered Ports:
+  - 135/tcp
+  - 139/tcp
+  - 445/tcp
+- Operating System: Linux
+
+Conclusion:
+The aggressive Nmap scan successfully identified active services, open ports, filtered ports, and operating system details of the target host. This information helps in understanding the network exposure and available services.

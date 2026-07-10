@@ -1,0 +1,17 @@
+Phase 2 – Service Version Detection
+
+Objective:
+To identify the versions of services running on the target host using Nmap service detection.
+
+Command Used:
+nmap -sV scanme.nmap.org
+
+Results:
+- SSH service detected on port 22 (OpenSSH 6.6.1p1)
+- HTTP service detected on port 80 (Apache httpd 2.4.7)
+- Nping Echo service detected on port 9929
+- tcpwrapped service detected on port 31337
+- Several filtered ports were also identified.
+
+Conclusion:
+The service version scan successfully identified the software and versions running on the target host. This information is useful for network auditing and vulnerability assessment.
