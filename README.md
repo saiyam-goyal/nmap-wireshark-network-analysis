@@ -1,6 +1,6 @@
 # Nmap & Wireshark Network Analysis
 
-![Project Banner](phase3/conversations.png)
+![Project Banner](phase-3/conversations.png)
 
 ## Overview
 This project demonstrates basic network reconnaissance and packet analysis using Nmap and Wireshark.
