@@ -1,51 +1,82 @@
-# Nmap & Wireshark Network Analysis
+<div align="center">
 
-![Wireshark Screenshot](Image-Wireshark.png)
+# 🌐 Nmap & Wireshark Network Analysis
 
-## Overview
-This project demonstrates basic network reconnaissance and packet analysis using Nmap and Wireshark.
+### Network Reconnaissance • Packet Analysis • TCP/IP
 
-## Objectives
-- Perform port scanning using Nmap
-- Detect running services
-- Capture network packets
-- Analyze TCP communication
-- Understand protocol hierarchy
+![Nmap](https://img.shields.io/badge/Nmap-7.99-blue?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Wireshark-Network%20Analysis-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![macOS](https://img.shields.io/badge/macOS-Terminal-black?style=for-the-badge&logo=apple)
 
-## Tools Used
-- Nmap 7.99
-- Wireshark
-- macOS
+*A hands-on cybersecurity project demonstrating network scanning, service enumeration, and packet analysis using Nmap and Wireshark.*
 
-## Project Structure
+</div>
 
-Phase 1/
-- nmap_scan_output.png
-- phase1_notes.txt
+---
 
-Phase 2/
-- service_detection.png
-- phase2_notes.txt
+## 📖 About
 
-Phase 3/
-- scan_capture.pcapng
-- conversations.png
-- protocol_hierarchy.png
-- open_port22.png
-- syn_packet.png
-- syn_ack.png
-- closed_port8022.png
+This project focuses on practical network reconnaissance and traffic analysis using **Nmap** and **Wireshark**. It demonstrates how to discover live hosts, identify running services, capture network traffic, and analyze TCP/IP communication.
 
-Report/
-- Network_Scanning_Report.docx
+---
 
-## Skills Demonstrated
+## 🛠️ Environment
+
+- **Operating System:** macOS
+- **Network Scanner:** Nmap 7.99
+- **Packet Analyzer:** Wireshark
+
+---
+
+## 📂 Project Structure
+
+```
+Phase-1
+Phase-2
+Phase-3
+Report
+```
+
+---
+
+## 🚀 Project Phases
+
+📡 **Phase 1** – Host Discovery & Port Scanning
+
+🔍 **Phase 2** – Service Detection & Enumeration
+
+📦 **Phase 3** – Packet Capture & TCP Analysis
+
+📝 **Report** – Network Scanning & Analysis Documentation
+
+---
+
+## 💻 Commands Practiced
+
+```bash
+nmap
+nmap -sV
+nmap -Pn
+nmap -O
+nmap -A
+tcpdump
+```
+
+---
+
+## 🎯 Skills Gained
+
 - Network Scanning
 - Service Enumeration
-- TCP/IP Analysis
 - Packet Inspection
+- TCP/IP Analysis
 - Wireshark Traffic Analysis
 - Cybersecurity Fundamentals
 
-## Author
-Saiyam Goyal
+---
+
+<div align="center">
+
+⭐ **If you found this project useful, consider giving it a star!**
+
+</div>
